@@ -1,4 +1,5 @@
 #include "stats.h"
+#include <numeric>
 
 Stats Statistics::ComputeStatistics(const std::vector<double>& vec) {
     //Implement statistics here
