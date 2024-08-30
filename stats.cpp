@@ -1,7 +1,7 @@
 #include "stats.h"
 //#include <numeric>
 
-Stats Statistics::ComputeStatistics(const std::vector<double>& vec) {
+Stats Statistics::ComputeStatistics(const std::vector<double>& data) {
     //Implement statistics here
     Stats objStruct;
     //objStruct.min= *min_element(vec.begin(), vec.end());
